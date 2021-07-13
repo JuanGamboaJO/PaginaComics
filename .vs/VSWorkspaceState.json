@@ -4,10 +4,9 @@
     "\\PaginaHeroes",
     "\\PaginaHeroes\\PaginaHeroes",
     "\\PaginaHeroes\\PaginaHeroes\\Views",
-    "\\PaginaHeroes\\PaginaHeroes\\Views\\Shared",
     "\\PaginaHeroes\\PaginaHeroes\\wwwroot",
-    "\\PaginaHeroes\\PaginaHeroes\\wwwroot\\js"
+    "\\PaginaHeroes\\PaginaHeroes\\wwwroot\\css"
   ],
-  "SelectedNode": "\\PaginaHeroes\\PaginaHeroes\\wwwroot\\js\\menu.js",
+  "SelectedNode": "\\PaginaHeroes\\PaginaHeroes.sln",
   "PreviewInSolutionExplorer": false
 }
