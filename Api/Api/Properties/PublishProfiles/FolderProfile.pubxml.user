@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\ApiComics</_PublishTargetUrl>
+    <History>True|2021-07-12T15:57:06.6248134Z;True|2021-07-12T10:52:15.4378997-05:00;True|2021-07-12T10:49:25.8710162-05:00;True|2021-07-12T10:28:24.8858289-05:00;True|2021-07-12T10:26:10.1943283-05:00;True|2021-07-12T10:04:01.6051112-05:00;True|2021-07-12T10:03:58.1380811-05:00;True|2021-07-12T09:57:26.7033669-05:00;True|2021-07-12T09:55:36.4869221-05:00;True|2021-07-12T09:55:25.9389995-05:00;True|2021-07-12T09:45:10.7870159-05:00;True|2021-07-12T08:54:29.4233459-05:00;</History>
+  </PropertyGroup>
+</Project>

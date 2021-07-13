@@ -1,11 +1,19 @@
-﻿<!DOCTYPE html>
+﻿@using System.Net;
+@{
+  
+    String url=Dns.GetHostName();
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/style.css" type="text/css">
+    <link href="https://file.myfontastic.com/rnrxngYfGsatbVtwgDLpoK/icons.css" rel="stylesheet">
     <link rel="stylesheet" href="~/css/normalize.css">
+    <script text="text/javascript" src='~/js/menu.js'></script>
 
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -17,12 +25,25 @@
 <body>
     <header class="header">
         <a asp-action="Home" asp-controller="Home">
-            <img class="header__logo" src="http://localhost:8080/imagenes/logo.png" data-zoom-image="http://localhost:8080/imagenes/logo.png"/>
+            <img class="header__logo" src="https://@url:8080/imagenes/logo.png"  />
         </a>
     </header>
     <nav class="navegacion">
-        <a class="navegacion__a navegacion__a--activo" asp-action="Home" asp-controller="Home">Tienda</a>
-        <a class="navegacion__a" asp-action="Nosotros" asp-controller="Home">Nosotros</a>
+        <div class="navegacion_vacio"></div>
+        <div class="navegacion_links">
+            <a class="navegacion__a navegacion__a--activo" asp-action="Home" asp-controller="Home">Tienda</a>
+            <a class="navegacion__a" asp-action="Nosotros" asp-controller="Home">Nosotros</a>
+        </div>
+        <a class="navegacion_menu">
+            <span class="icon-menu" id="btn-menu"></span>
+            <div class="menu_expandible">
+                <ul class="menu">
+                    <li class="menu_item"><a class="menu_link select" >Iniciar Sesion</a></li>
+                    <li class="menu_item"><a class="menu_link">Registrarse</a></li>
+                </ul>
+            </div>
+        </a>
+     
     </nav>
     <div class="container">
         <main role="main" class="pb-3">

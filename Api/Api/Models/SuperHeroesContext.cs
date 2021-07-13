@@ -42,7 +42,7 @@ namespace Api.Models
                     .IsRequired()
                     .IsUnicode(false)
                     .HasColumnName("imagen");
-
+              
                 entity.Property(e => e.Informacion)
                     .IsRequired()
                     .IsUnicode(false)
@@ -57,6 +57,9 @@ namespace Api.Models
                 entity.Property(e => e.Precio)
                     .HasColumnType("money")
                     .HasColumnName("precio");
+
+         
+
             });
 
             OnModelCreatingPartial(modelBuilder);

@@ -1,73 +1,77 @@
-﻿
+﻿@using System.Net;
+@{
+
+    String url = Dns.GetHostName();
+}
 <script text="text/javascript" src="~/js/slider.js"></script>
-    <main class="contenedor">
-        <h1>Sobre Nosotros</h1>
-        <div class="grid2">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti excepturi, amet a, ad aut adipisci voluptate velit, fuga repudiandae cupiditate harum provident sed eos? Animi nulla dolorum sapiente tenetur harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquid accusamus facere dicta delectus, omnis fugiat libero voluptas voluptate esse soluta consequuntur similique. Distinctio aperiam neque vero facilis praesentium animi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas odit perspiciatis numquam, ullam id reiciendis autem assumenda sequi molestias saepe quae optio ex facilis impedit nisi laborum modi necessitatibus neque!</p>
-            <div class="container-slider">
-                <div class="slider" id="slider">
-                    <div class="slider__section">
-                        <img class="grid2img" src="http://localhost:8080/imagenes/nosotros.jpg" alt="imagen nosotros">
-                    </div>
-                    <div class="slider__section">
-                        <img class="grid2img" src="http://localhost:8080/imagenes/nosotros2.jpg" alt="imagen nosotros">
-                    </div>
-                    <div class="slider__section">
-                        <img class="grid2img" src="http://localhost:8080/imagenes/nosotros3.jpg" alt="imagen nosotros">
-                    </div>
-                    <div class="slider__section">
-                        <img class="grid2img" src="http://localhost:8080/imagenes/nosotros4.jpg" alt="imagen nosotros">
-                    </div>
-                    <div class="slider__section">
-                        <img class="grid2img" src="http://localhost:8080/imagenes/nosotros5.jpg" alt="imagen nosotros">
-                    </div>
+<main class="contenedor">
+    <h1>Sobre Nosotros</h1>
+    <div class="grid2">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti excepturi, amet a, ad aut adipisci voluptate velit, fuga repudiandae cupiditate harum provident sed eos? Animi nulla dolorum sapiente tenetur harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquid accusamus facere dicta delectus, omnis fugiat libero voluptas voluptate esse soluta consequuntur similique. Distinctio aperiam neque vero facilis praesentium animi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas odit perspiciatis numquam, ullam id reiciendis autem assumenda sequi molestias saepe quae optio ex facilis impedit nisi laborum modi necessitatibus neque!</p>
+        <div class="container-slider">
+            <div class="slider" id="slider">
+                <div class="slider__section">
+                    <img class="grid2img" src="https://@url:8080/imagenes/nosotros.jpg" alt="imagen nosotros">
+                </div>                             
+                <div class="slider__section">      
+                    <img class="grid2img" src="https://@url:8080/imagenes/nosotros2.jpg" alt="imagen nosotros">
+                </div>                             
+                <div class="slider__section">      
+                    <img class="grid2img" src="https://@url:8080/imagenes/nosotros3.jpg" alt="imagen nosotros">
+                </div>                             
+                <div class="slider__section">      
+                    <img class="grid2img" src="https://@url:8080/imagenes/nosotros4.jpg" alt="imagen nosotros">
+                </div>                             
+                <div class="slider__section">      
+                    <img class="grid2img" src="https://@url:8080/imagenes/nosotros5.jpg" alt="imagen nosotros">
                 </div>
             </div>
         </div>
-    </main>
-    <h2>Porqué comprar con nosotros</h2>
-    <div class="section">
-        <section class="section__logo">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-businessplan" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <ellipse cx="16" cy="6" rx="5" ry="3" />
-                <path d="M11 6v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
-                <path d="M11 10v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
-                <path d="M11 14v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
-                <path d="M7 9h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
-                <path d="M5 15v1m0 -8v1" />
-            </svg>
-            <h3 class="section__titulo">El mejor precio</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </section>
-        <section class="section__logo">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
-                <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
-            </svg>
-            <h3 class="section__titulo">Para devs</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </section>
-        <section class="section__logo">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <circle cx="7" cy="17" r="2" />
-                <circle cx="17" cy="17" r="2" />
-                <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
-            </svg>
-            <h3 class="section__titulo">Envio Gratis</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </section>
-        <section class="section__logo">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M9 12l2 2l4 -4" />
-                <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
-            </svg>
-            <h3 class="section__titulo">La mejor calidad</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </section>
-
     </div>
+</main>
+<h2>Porqué comprar con nosotros</h2>
+<div class="section">
+    <section class="section__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-businessplan" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <ellipse cx="16" cy="6" rx="5" ry="3" />
+            <path d="M11 6v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
+            <path d="M11 10v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
+            <path d="M11 14v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
+            <path d="M7 9h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
+            <path d="M5 15v1m0 -8v1" />
+        </svg>
+        <h3 class="section__titulo">El mejor precio</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </section>
+    <section class="section__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+            <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+        </svg>
+        <h3 class="section__titulo">Para devs</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </section>
+    <section class="section__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="7" cy="17" r="2" />
+            <circle cx="17" cy="17" r="2" />
+            <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+        </svg>
+        <h3 class="section__titulo">Envio Gratis</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </section>
+    <section class="section__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 12l2 2l4 -4" />
+            <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+        </svg>
+        <h3 class="section__titulo">La mejor calidad</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </section>
+
+</div>
 
