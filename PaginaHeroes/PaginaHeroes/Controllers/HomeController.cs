@@ -49,7 +49,17 @@ namespace PaginaHeroes.Controllers
         {
             return View("Producto");
         }
+        public IActionResult IniciarSesion()
+        {
+            return View("IniciarSesion");
+        }
+        public IActionResult Registro()
+        {
+            return View("Registro");
+        }
 
-       
+
+
+
     }
 }

@@ -1,0 +1,29 @@
+﻿@using System.Net;
+@{
+
+    String url = Dns.GetHostName();
+}
+
+
+<main>
+    <div class="formulario-registro">
+
+        <div class="logo">
+            <img class="imglogo" src="https://@url:8080/imagenes/logo.png" />
+        </div>
+
+        <form class="formuariodato">
+            <label for="" class="fomulario_label">Nombre completo:</label>
+            <input type="text" class="formulario_txt" name="nombrecompleto" />
+            <label for="" class="fomulario_label">Correo:</label>
+            <input type="text" class="formulario_txt" name="correo" />
+            <label for="" class="fomulario_label">Usuario:</label>
+            <input type="text" class="formulario_txt" name="usuario" />
+            <label for="" class="fomulario_label">Contraseña:</label>
+            <input type="password" class="formulario_txt" name="contraseña" />
+            <input value="Enviar" type="submit" class="btnformulario" />
+
+        </form>
+
+    </div>
+</main>

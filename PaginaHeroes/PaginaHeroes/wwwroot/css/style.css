@@ -148,14 +148,17 @@ h3{font-size: 2.4rem;}
 }
 .menu_expandible {
     position: absolute;
-    top: 33.7%;
-    left: 100%;
-    width: 100%;
-    transition :all 0.4s;
+    top: 24%;
+    left:-100%;
+    width:100%;
+    transition :all 0.5s;
+    z-index:100;
+    display:none;
    
 }
 .mostrar {
-    left: 87.9%
+    left: 0%;
+    display: block;
 }
 
 .menu{
@@ -164,17 +167,36 @@ h3{font-size: 2.4rem;}
     margin:0
 }
 
-.menu_link{
-    display:block;
-    padding:15px;
-    background:#fff;
-    text-decoration:none;
-    color:red;
+.menu_link {
+    display: block;
+    padding: 15px;
+    background: var(--secundario);
+    text-decoration: none;
+    color: white;
+    font-family: var(--fuenteprincipal);
 }
 
-.menu_link:hover, .select{
+.menu_link:hover{
     background:white;
-    color:red;
+    color:var(--primario);
+}
+
+.select{
+    border-bottom: solid;
+}
+
+
+@media (min-width:768px){
+    .mostrar {
+        left: 76.9%;
+        display: block;
+    }
+
+    .menu_expandible {
+        top: 23.8%;
+        width: 23.1%;
+    }
+
 }
 
 .navegacion__a{
@@ -331,6 +353,7 @@ h3{font-size: 2.4rem;}
         column-gap: 2rem;
 
      }
+
 }
 
 
@@ -374,4 +397,117 @@ h3{font-size: 2.4rem;}
 
 .formulario option{
     background-color: var(--negro);
+}
+
+.iniciodesesion{
+    position:relative;
+    height:500px;
+    width:340px;
+    margin: 4rem auto;
+    background: var(--primariooscuro);
+    display:flex;
+    flex-direction:column;
+    justify-items:center;
+}
+
+.logo {
+    align-self:center;
+    justify-self:center;
+    padding-top:4rem;
+}
+
+.formuariodato {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-self: center;
+    padding-bottom:6rem;
+}
+
+
+.btnformulario {
+    background-color: var(--secundario);
+    border: none;
+    font-family: var(--fuenteprincipal);
+    font-size: 2rem;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease;
+    margin-top: 1rem;
+}
+
+@media(min-width:768px){
+    .iniciodesesion {
+        position: relative;
+        height: 500px;
+        width: 640px;
+        margin: 4rem auto;
+        background: var(--primariooscuro);
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    
+
+    .formuariodato {
+        width: 200px;
+    }
+    label{
+        padding-bottom:2px;
+        padding-top:4px;
+    }
+    
+}
+
+.btnformulario{
+    cursor:pointer;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-self: center;
+    font-family: var(--fuenteprincipal);
+    padding-bottom: 20rem;
+    font-size:20px;
+}
+.opcion{
+    color:white;
+}
+
+.opcion:hover{
+    color:black;
+    cursor:pointer;
+}
+
+.fomulario_label {
+    font-size: 16px;
+    color: black;
+    font-family: var(--fuenteprincipal);
+}
+
+
+
+.formulario-registro {
+    position: relative;
+    height: 500px;
+    width: 340px;
+    margin: 4rem auto;
+    background: var(--primariooscuro);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+@media(min-width:768px){
+    .formulario-registro {
+        position: relative;
+        height: 500px;
+        width: 640px;
+        margin: 4rem auto;
+        background: var(--primariooscuro);
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
 }
