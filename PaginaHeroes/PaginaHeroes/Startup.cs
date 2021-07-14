@@ -26,6 +26,7 @@ namespace PaginaHeroes
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddSignalR();
 
             
         }
@@ -55,6 +56,7 @@ namespace PaginaHeroes
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapHub<ChatHub>("/Chat");
             });
         }
     }
