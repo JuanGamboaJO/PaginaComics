@@ -3,6 +3,7 @@ D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Release\net5.0\Pu
 D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Release\net5.0\PubTmp\Out\wwwroot\css\site.css
 D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Release\net5.0\PubTmp\Out\wwwroot\css\style.css
 D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Release\net5.0\PubTmp\Out\wwwroot\favicon.ico
+D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Release\net5.0\PubTmp\Out\wwwroot\js\botonchat.js
 D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Release\net5.0\PubTmp\Out\wwwroot\js\CambioUrlHome.js
 D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Release\net5.0\PubTmp\Out\wwwroot\js\Chat.js
 D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Release\net5.0\PubTmp\Out\wwwroot\js\ConsumirApi.js

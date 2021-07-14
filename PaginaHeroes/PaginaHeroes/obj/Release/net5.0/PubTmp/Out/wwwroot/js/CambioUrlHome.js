@@ -1,4 +1,5 @@
-﻿window.addEventListener("load", function (){
+﻿window.addEventListener("load", function () {
+
     var codigo = Math.random().toString(36).substr(2);
 
     sessionStorage.setItem("Homeurl", codigo);
