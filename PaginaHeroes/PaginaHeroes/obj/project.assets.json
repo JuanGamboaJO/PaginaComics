@@ -7149,19 +7149,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JUAN\\.nuget\\packages\\": {}
+    "C:\\Users\\elmer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\PaginaComics\\PaginaHeroes\\PaginaHeroes\\PaginaHeroes.csproj",
+      "projectUniqueName": "C:\\Users\\elmer\\Documents\\GitHub\\PaginaComics\\PaginaHeroes\\PaginaHeroes\\PaginaHeroes.csproj",
       "projectName": "PaginaHeroes",
-      "projectPath": "D:\\Documents\\GitHub\\PaginaComics\\PaginaHeroes\\PaginaHeroes\\PaginaHeroes.csproj",
-      "packagesPath": "C:\\Users\\JUAN\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\GitHub\\PaginaComics\\PaginaHeroes\\PaginaHeroes\\obj\\",
+      "projectPath": "C:\\Users\\elmer\\Documents\\GitHub\\PaginaComics\\PaginaHeroes\\PaginaHeroes\\PaginaHeroes.csproj",
+      "packagesPath": "C:\\Users\\elmer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elmer\\Documents\\GitHub\\PaginaComics\\PaginaHeroes\\PaginaHeroes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JUAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7169,8 +7169,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://packagesource": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
