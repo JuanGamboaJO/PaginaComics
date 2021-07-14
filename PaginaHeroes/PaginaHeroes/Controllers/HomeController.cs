@@ -58,8 +58,7 @@ namespace PaginaHeroes.Controllers
             return View("Registro");
         }
 
-
-
+        
 
     }
 }

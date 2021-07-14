@@ -446,3 +446,5 @@ D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Debug\net5.0\Pagi
 D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Debug\net5.0\ref\PaginaHeroes.dll
 D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Debug\net5.0\PaginaHeroes.pdb
 D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Debug\net5.0\PaginaHeroes.genruntimeconfig.cache
+D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\bin\Debug\net5.0\libman.json
+D:\Documents\GitHub\PaginaComics\PaginaHeroes\PaginaHeroes\obj\Debug\net5.0\Razor\Views\Chat\Chat.cshtml.g.cs
