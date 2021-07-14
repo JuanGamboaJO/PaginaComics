@@ -1,4 +1,6 @@
-﻿window.addEventListener("load", function () {
+﻿
+
+window.addEventListener("load", function () {
 
     var codigo = Math.random().toString(36).substr(2);
 
@@ -8,5 +10,5 @@
 
     console.log(data);
 
-    window.location.replace(`?Home=${data}`);
+    this.history.replaceState("", "", data);
 })
