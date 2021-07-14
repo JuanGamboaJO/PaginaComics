@@ -11,11 +11,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/style.css" type="text/css">
-    <link href="https://file.myfontastic.com/rnrxngYfGsatbVtwgDLpoK/icons.css" rel="stylesheet">
+    <link href="https://file.myfontastic.com/Duwm575hgoFJ5tGNV3amc8/icons.css" rel="stylesheet">
     <link rel="stylesheet" href="~/css/normalize.css">
     <script text="text/javascript" src='~/js/menu.js'></script>
-
-
+    <script text="text/javascript" src='~/js/botonchat.js'></script>
+   
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script text="text/javascript" src='~/js/jquery-1.8.3.min.js'></script>
     <script text="text/javascript" src='~/js/jquery.elevatezoom.js'></script>
@@ -25,7 +25,7 @@
 <body>
     <header class="header">
         <a asp-action="Home" asp-controller="Home">
-            <img class="header__logo" src="https://@url:8080/imagenes/logo.png"  />
+            <img class="header__logo" src="https://@url:8080/imagenes/logo.png" />
         </a>
     </header>
     <nav class="navegacion">
@@ -43,14 +43,36 @@
                 </ul>
             </div>
         </a>
-     
+
     </nav>
+    <div class="botonchat">
+        <span id="btnchat" class="icon-chat"></span>
+    </div>
+   <div class="chatcontenedor">
+        <div class="caja-chat">
+            <div class="chat">
+                <div class="datos-chat">
+                    <span style="color:#1c62c4;">Elmer: </span>
+                    <span style="color:#848484;">hola,como estas</span>
+                    <span style="float:right;">9:43 am</span>
+                </div>
+
+            </div>
+
+        </div>
+        <form method="post">
+            <input class="campotexto " type="text" name="nombre" placeholder="Ingresa tu nombre" />
+            <textarea  name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
+            <input class="botonenviar" type="submit" value="Enviar" name="enviar" />
+        </form>
+
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-    </div>
 
+    </div>
 
     <footer class="footer">
         <p class="footer__texto">FrontEnd Store - Todos los derechos Reservados 2020.</p>

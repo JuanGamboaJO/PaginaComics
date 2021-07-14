@@ -4,9 +4,10 @@
     "\\PaginaHeroes",
     "\\PaginaHeroes\\PaginaHeroes",
     "\\PaginaHeroes\\PaginaHeroes\\Views",
+    "\\PaginaHeroes\\PaginaHeroes\\Views\\Shared",
     "\\PaginaHeroes\\PaginaHeroes\\wwwroot",
     "\\PaginaHeroes\\PaginaHeroes\\wwwroot\\css"
   ],
-  "SelectedNode": "\\PaginaHeroes\\PaginaHeroes.sln",
+  "SelectedNode": "\\PaginaHeroes\\PaginaHeroes\\wwwroot\\css\\style.css",
   "PreviewInSolutionExplorer": false
 }
